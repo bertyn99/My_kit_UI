@@ -1,14 +1,13 @@
 <template>
-  <Button></Button>
-  <Navbar></Navbar>
+  <NavAccueil></NavAccueil>
 </template>
 
 <script>
-import Button from "./Button";
-import Navbar from "./Navbar";
+import NavAccueil from "../components/NavAccueil";
+
 export default {
   name: "Accueil",
-  components: { Button, Navbar },
+  components: { NavAccueil },
 };
 </script>
 
